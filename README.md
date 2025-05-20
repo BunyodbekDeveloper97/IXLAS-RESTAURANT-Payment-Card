@@ -63,6 +63,7 @@ Here are sample screenshots showcasing the main features and UI of the applicati
 ### 4. `qr-code.png` — QR Code Access  
 > Scanning this QR code opens the application directly in a mobile browser, enabling instant payment.
 
+![QR Code](/image/QRCodeNote.png)
 ![QR Code](/image/qr-code.png)
 
 💡 **Tip:** Display this QR code at the restaurant entrance, cashier, or on printed menus so customers can scan and open the app effortlessly.
@@ -92,6 +93,7 @@ Here are sample screenshots showcasing the main features and UI of the applicati
 │ ├── copy-feature.png
 │ ├── address-link.png
 │ ├── qr-code.png
+| |__ Modern QR Code Scan Payment A5.png
 │ ├── mobile-main-card.png
 │ ├── mobile-copy-feature.png
 │ └── mobile-address-link.png
