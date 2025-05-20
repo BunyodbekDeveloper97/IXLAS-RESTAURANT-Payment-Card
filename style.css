@@ -1,0 +1,162 @@
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #d7f0ff, #a9d6ff, #7bbcff);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .restaurant-name {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .credit-card {
+    background: linear-gradient(135deg, #2A9D8F, #7BC6CC);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    position: relative;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    animation: floatCard 3s infinite ease-in-out;
+  }
+  
+  @keyframes floatCard {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bank-logo {
+    width: 70px;
+  }
+  
+  .bank-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .chip {
+    width: 45px;
+    height: 35px;
+    background-color: #ffc107;
+    border-radius: 6px;
+    margin: 20px 0 15px auto; /* chip o'ngga */
+  }
+  
+  .card-number {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+  
+  .card-holder-name {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .valid-thru {
+    font-size: 0.85rem;
+    text-align: right;
+  }
+  
+  .account-copy-section {
+    margin-bottom: 20px;
+  }
+  
+  .account-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .account-copy-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+  
+  .account-number {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .copy-btn {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .copy-btn:hover {
+    background-color: #1565c0;
+  }
+  
+  .address-link {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .address-link:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .card-number {
+      font-size: 1rem;
+    }
+  
+    .copy-btn {
+      padding: 5px 10px;
+    }
+  
+    .account-number {
+      font-size: 0.9rem;
+    }
+  }
+  

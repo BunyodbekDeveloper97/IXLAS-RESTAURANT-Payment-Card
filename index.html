@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IXLAS RESTAURANT Payment Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+
+    <h1 class="restaurant-name">IXLAS RESTAURANT</h1>
+
+    <img src="/image/IxlasImageLogo.png" alt="Restaurant Logo" class="logo" />
+
+    <section class="credit-card">
+      <div class="card-header">
+        <img src="/image/NH_Logo.png" alt="NH Bank Logo" class="bank-logo" />
+        <div class="bank-name">NH Bank</div>
+      </div>
+      <div class="chip"></div>
+      <div class="card-holder-name">PULATOV SUHROB</div>
+      <div class="card-number">302 1233 1611 01</div>
+      <div class="valid-thru">Valid Thru: 07/30</div>
+    </section>
+
+    <section class="account-copy-section">
+      <p class="account-label">Bank Account</p>
+      <div class="account-copy-wrapper">
+        <span class="account-number" id="accountNumber">302 1233 1611 01</span>
+        <button class="copy-btn" id="copyBtn" onclick="copyAccountNumber()">Copy</button>
+      </div>
+    </section>
+
+    <a href="https://map.kakao.com/link/search/경기 수원시 영통구 매탄동 101-30" target="_blank" class="address-link">
+      📍 Address: 경기 수원시 영통구 매탄동 101-30
+    </a>
+
+    <footer>
+      © 2025 RB_Group.Co. All rights reserved.
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
