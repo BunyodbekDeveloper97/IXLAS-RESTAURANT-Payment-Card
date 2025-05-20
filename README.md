@@ -56,7 +56,7 @@ Here are sample screenshots showcasing the main features and UI of the applicati
 ![Address Link](/image/address-link.png)
 
 **Mobile Version:**  
-![Mobile Address Link](/image/mobile-address-link.png)
+![Mobile Address Link](/image/address-link.png)
 
 ---
 
