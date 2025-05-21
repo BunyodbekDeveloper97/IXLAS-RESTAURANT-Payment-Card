@@ -70,7 +70,7 @@
     height: 35px;
     background-color: #ffc107;
     border-radius: 6px;
-    margin: 20px 0 15px auto; /* chip o'ngga */
+    margin: 20px 0 15px auto; 
   }
   
   .card-number {
@@ -84,13 +84,18 @@
     margin-bottom: 5px;
   }
   
-  .valid-thru {
+  .card-brand {
     font-size: 0.85rem;
     text-align: right;
   }
   
+  .card-logo {
+    height: 30px;
+    object-fit: contain;
+  }
+  
   .account-copy-section {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .account-label {
@@ -126,22 +131,32 @@
   .copy-btn:hover {
     background-color: #1565c0;
   }
-  
-  .address-link {
-    display: inline-block;
+
+  .restaurant-info {
     margin-top: 15px;
-    font-size: 0.95rem;
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .address-link:hover {
-    text-decoration: underline;
-    color: yellow;
-  }
+    font-size: 16px;
+    background: #5bb2e8a5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    color: white; 
+    text-decoration: none; 
+}
+
+a:hover {
+  color: yellow; 
+}
+
+strong {
+  background-color: #ffc107;
+  color: #201852;
+}
+
   
   footer {
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 0.8rem;
     color: #666;
   }
