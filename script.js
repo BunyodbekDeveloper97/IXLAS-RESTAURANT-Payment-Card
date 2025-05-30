@@ -16,7 +16,7 @@ function copyAccountNumber() {
   }
 
 
-  function openMap() {
+function openMap() {
     const address = "경기 수원시 영통구 매탄동 101-30";
     const naverMapURL = `https://map.naver.com/v5/search/${encodeURIComponent(address)}`;
     const kakaoMapURL = `https://map.kakao.com/?q=${encodeURIComponent(address)}`;
