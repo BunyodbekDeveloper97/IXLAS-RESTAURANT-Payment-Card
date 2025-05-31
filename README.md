@@ -1,10 +1,10 @@
-# IXLAS RESTAURANT Payment Card 💳🧾
+# IXLOS RESTAURANT Payment Card 💳🧾
 
-![IXLAS Logo](/image/Logo.jpg)
+![IXLOS Logo](/image/mainLogo.png)
 
 ## 📌 Project Overview
 
-**IXLAS RESTAURANT Payment Card** is a real-world web interface developed for **IXLAS RESTAURANT (South Korea)** to display its bank account information in a clear, professional, and interactive way.  
+**IXLOS RESTAURANT Payment Card** is a real-world web interface developed for **IXLOS RESTAURANT (South Korea)** to display its bank account information in a clear, professional, and interactive way.  
 It allows customers to:
 
 - View the restaurant's bank details  
@@ -30,23 +30,23 @@ It allows customers to:
 
 Here are sample screenshots showcasing the main features and UI of the application:
 
-### 1. `main-card.png` — Main Payment Card Interface  
+### 1. `mainCardWeb.png` — Main Payment Card Interface  
 > Shows the restaurant's bank name, account holder, and account number in a stylish card layout.
 
 ![Main Card](/image/main-card.png)
 
 **Mobile Version:**  
-![Mobile Main Card](/image/mobile-main-card.png)
+![Mobile Main Card](/image/mainCardMobile.jpg)
 
 ---
 
 ### 2. `copy-feature.png` — Copy to Clipboard Function  
 > Demonstrates the working **"Copy"** button, which lets users easily copy the account number.
 
-![Copy Feature](/image/copy-feature.png)
+![Copy Feature](/image/copyFeatureWeb.png)
 
 **Mobile Version:**  
-![Mobile Copy Feature](/image/mobile-copy-feature.png)
+![Mobile Copy Feature](/image/copyfeatureMobile.jpg)
 
 ---
 
@@ -63,8 +63,8 @@ Here are sample screenshots showcasing the main features and UI of the applicati
 ### 4. `qr-code.png` — QR Code Access  
 > Scanning this QR code opens the application directly in a mobile browser, enabling instant payment.
 
-![QR Code](/image/QRCodeNote.png)
-![QR Code](/image/qr-code.png)
+![QR Code](/image/)
+![QR Code](/image)
 
 💡 **Tip:** Display this QR code at the restaurant entrance, cashier, or on printed menus so customers can scan and open the app effortlessly.
 
@@ -117,4 +117,4 @@ Here are sample screenshots showcasing the main features and UI of the applicati
 © 2025 **RB_Group.Co.**  
 This project is custom-developed for **IXLAS RESTAURANT (South Korea)** and is used in a real-world business environment. All rights reserved.
 
-> Built and deployed for: **IXLAS RESTAURANT — South Korea 🇰🇷**
+> Built and deployed for: **IXLOS RESTAURANT — South Korea 🇰🇷**
