@@ -107,15 +107,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #ffffff !important;
+    color: #0f0f10 !important;
     padding: 10px 15px;
     border-radius: 10px;
   }
   
   .account-number {
     font-weight: bold;
-    font-size: 1rem;
-    color: #000;               
+    font-size: 1rem;            
     padding: 5px 10px;
     border-radius: 6px;
   }
