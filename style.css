@@ -72,13 +72,15 @@ body {
   margin: 20px 0 15px auto;
 }
 
-.credit-card .card-number {
+.card-number {
   font-size: clamp(1rem, 4vw, 1.2rem);
   letter-spacing: 2px;
   margin-bottom: 8px;
   color: #f5f5f5;
-  text-decoration: none;
+  text-decoration: none !important;
+  pointer-events: none; /*bosilmasin degan buyruq*/
   word-break: break-word;
+  user-select: text;
 }
 
 .card-holder-name {
@@ -122,8 +124,9 @@ body {
   font-weight: bold;
   font-size: clamp(0.9rem, 3vw, 1rem);
   color: #1414f0;
-  text-decoration: none;
-  word-break: break-all;
+  pointer-events: none; /*bosilmasin degan buyruq*/
+  word-break: break-word;
+  user-select: text;
 }
 
 .copy-btn {
