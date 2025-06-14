@@ -115,9 +115,7 @@
   
   .account-number {
     font-weight: bold;
-    font-size: 1rem;            
-    padding: 5px 10px;
-    border-radius: 6px;
+    font-size: 1rem;
   }
   
   .copy-btn {
@@ -144,12 +142,12 @@
 }
 
 a {
-    color: white; 
+    color: #e57c7c; 
     text-decoration: none; 
 }
 
 a:hover {
-  color: yellow; 
+  color: #0e0e01; 
 }
 
 strong {
@@ -158,14 +156,14 @@ strong {
 }
 
   
-  footer {
+footer {
     margin-top: 10px;
     font-size: 0.8rem;
     color: #666;
-  }
+}
   
   /* Responsive Design */
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .card-number {
       font-size: 1rem;
     }
@@ -176,8 +174,6 @@ strong {
   
     .account-number {
       font-size: 0.9rem;
-      background-color: #ffffff;
-      color: #000;
     }
-  }
+}
   
