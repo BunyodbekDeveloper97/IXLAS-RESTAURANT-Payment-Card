@@ -8,7 +8,6 @@
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #d7f0ff, #a9d6ff, #7bbcff);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +34,6 @@
   
   .credit-card {
     background: linear-gradient(135deg, #2A9D8F, #7BC6CC);
-    color: #f5f5f5 !important;
     border-radius: 20px;
     padding: 25px;
     position: relative;
@@ -54,6 +52,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color:#f3d49b;
   }
   
   .bank-logo {
@@ -77,12 +76,14 @@
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-bottom: 8px;
+    color: #f5f5f5;
     text-decoration: none;
   }
   
   .card-holder-name {
     font-size: 1rem;
     margin-bottom: 5px;
+    color: #f5f5f5;
   }
   
   .card-brand {
