@@ -72,12 +72,12 @@ body {
   margin: 20px 0 15px auto;
 }
 
-.card-number {
+.credit-card .card-number {
   font-size: clamp(1rem, 4vw, 1.2rem);
   letter-spacing: 2px;
   margin-bottom: 8px;
-  color: #f5f5f5 !important;
-  text-decoration: none !important;
+  color: #f5f5f5;
+  text-decoration: none;
 }
 
 .card-holder-name {
@@ -116,12 +116,12 @@ body {
   gap: 8px;
 }
 
-.account-number {
+.credit-card .account-number {
   font-weight: bold;
   font-size: clamp(0.9rem, 3vw, 1rem);
-  color: #2424ee !important;
-  text-decoration: none !important;
-  word-break: break-word;
+  color: #2424ee;
+  text-decoration: none;
+  word-break: break-all;
 }
 
 .copy-btn {
