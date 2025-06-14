@@ -102,21 +102,32 @@
     font-weight: bold;
     margin-bottom: 8px;
   }
-  
+  /* NUMBER BUG tuzatilgan */
   .account-copy-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f5f5f5;
+    background-color: #f5f5f5;
     padding: 10px 15px;
     border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
-  
+  /*NUMBER BUG tuzatilgan*/
   .account-number {
     font-weight: bold;
     font-size: 1rem;
-    color: #000;              
+    color: #000;
+    transition: color 0.3s ease;
   }
+
+   /* Tanlangan matn fonini barcha brauzerlarda tekislash (selection) NUMBER BUG tuzatilgan  */
+.account-copy-wrapper ::selection,
+.account-number ::selection,
+.account-copy-wrapper ::-webkit-selection,
+.account-number ::-webkit-selection {
+  background-color: transparent !important;
+  color: inherit !important;
+}
   
   .copy-btn {
     background-color: #1e88e5;
@@ -176,4 +187,37 @@ strong {
       font-size: 0.9rem;
     }
   }
+
+
+  /* Universal dark mode override    NUMBER BUG tuzatilgan */
+/* Dark mode paytida ham fon va matn rangini yorug‘ rejimda ushlab turish NUMBER BUG tuzatilgan */
+@media (prefers-color-scheme: dark) {
+  .account-copy-wrapper {
+    background-color: #f5f5f5 !important; /* Yorug‘ fon */
+    color: #000 !important;               /* Yorug‘ matn */
+  }
+  
+  .account-number {
+    color: #000 !important;
+  }
+  
+  /* Agar copy tugmasi ham rang o‘zgaradigan bo‘lsa  NUMBER BUG tuzatilgan*/
+  .copy-btn {
+    background-color: #1e88e5 !important;
+    color: #fff !important;
+  }
+}
+
+/* iOS, iPadOS, va Safari uchun maxsus selection NUMBER BUG tuzatilgan */
+.account-copy-wrapper ::-webkit-selection,
+.account-number ::-webkit-selection {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+/* Qo‘shimcha tavsiya: user-select boshqarish (tanlashni yoqish yoki o‘chirish)  NUMBER BUG tuzatilgan */
+/* Agar xohlasangiz, tanlashni ruxsat eting NUMBER BUG tuzatilgan */
+.account-number {
+  user-select: text;
+}
   
