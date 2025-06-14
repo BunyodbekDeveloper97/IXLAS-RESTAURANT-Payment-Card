@@ -33,6 +33,7 @@ body {
   margin-bottom: 20px;
 }
 
+/* Credit Card Styles */
 .credit-card {
   background: linear-gradient(135deg, #2A9D8F, #7BC6CC);
   border-radius: 20px;
@@ -73,22 +74,22 @@ body {
   margin: 20px 0 15px auto;
 }
 
+.card-holder-name {
+  font-size: clamp(0.9rem, 3vw, 1rem);
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #f5f5f5;
+}
+
 .card-number {
   font-size: clamp(1rem, 4vw, 1.2rem);
   letter-spacing: 2px;
   margin-bottom: 8px;
   color: #f5f5f5;
   text-decoration: none !important;
-  pointer-events: none; /*bosilmasin degan buyruq*/
+  pointer-events: none;
   word-break: break-word;
   user-select: text;
-}
-
-.card-holder-name {
-  font-size: clamp(0.9rem, 3vw, 1rem);
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #f5f5f5;
 }
 
 .card-brand {
@@ -101,6 +102,7 @@ body {
   object-fit: contain;
 }
 
+/* Account Copy Section */
 .account-copy-section {
   margin-bottom: 10px;
 }
@@ -125,7 +127,7 @@ body {
   font-weight: bold;
   font-size: clamp(0.9rem, 3vw, 1rem);
   color: #1414f0;
-  pointer-events: none; /*bosilmasin degan buyruq*/
+  pointer-events: none;
   word-break: break-word;
   user-select: text;
 }
@@ -146,6 +148,7 @@ body {
   background-color: #1565c0;
 }
 
+/* Restaurant Info */
 .restaurant-info {
   margin-top: 15px;
   font-size: clamp(0.9rem, 3vw, 1rem);
@@ -166,8 +169,10 @@ body {
 strong {
   background-color: #ffc107;
   color: #0f0229;
+  padding: 0 4px;
 }
 
+/* Footer */
 footer {
   margin-top: 10px;
   font-size: 0.8rem;
