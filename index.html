@@ -24,7 +24,6 @@
       <div class="card-brand">
         <img src="/image/CardBrandLogo.png" alt="Visa" class="card-logo" />
       </div>
-      
     </section>
 
     <section class="account-copy-section">
@@ -34,20 +33,19 @@
         <button class="copy-btn" id="copyBtn" onclick="copyAccountNumber()">Copy</button>
       </div>
     </section>
-   
+
     <div class="restaurant-info">
       <p>
-          <strong>📍 Address:</strong><br>
-            <a href="#" target="_blank"  onclick="openMap()">
-              ➡️ 경기 수원시 영통구 매탄동 101-30
-            </a>
+        <strong>📍 Address:</strong><br>
+        <a href="#" target="_blank" onclick="openMap()">
+          ➡️ 경기 수원시 영통구 매탄동 101-30
+        </a>
       </p>
-
-        <p>
-          <strong>☎ Order Phone:</strong><br>
-          <a href="tel:+827041891505">➡️ 070-4189-1505</a>
-        </p>
-  </div>
+      <p>
+        <strong>☎ Order Phone:</strong><br>
+        <a href="tel:+827041891505">➡️ 070-4189-1505</a>
+      </p>
+    </div>
 
     <footer>
       © 2025 RB_Group.Co. All rights reserved.
@@ -55,6 +53,17 @@
 
   </main>
 
-  <script src="script.js"></script>
+  <script>
+    function copyAccountNumber() {
+      const text = document.getElementById("accountNumber").innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Account number copied!");
+      });
+    }
+
+    function openMap() {
+      window.open("https://map.kakao.com/link/map/IXLOS RESTAURANT,37.256,127.079");
+    }
+  </script>
 </body>
 </html>
