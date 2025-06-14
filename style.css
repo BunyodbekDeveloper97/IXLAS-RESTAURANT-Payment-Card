@@ -107,8 +107,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff !important;
-    color: #0f0f10 !important;
+    background-color: #ffffff;
+    color: #0f0f10;
     padding: 10px 15px;
     border-radius: 10px;
   }
@@ -142,12 +142,12 @@
 }
 
 a {
-    color: #e57c7c; 
+    color: #0a0909; 
     text-decoration: none; 
 }
 
 a:hover {
-  color: #0e0e01; 
+  color: #dfdf1b; 
 }
 
 strong {
