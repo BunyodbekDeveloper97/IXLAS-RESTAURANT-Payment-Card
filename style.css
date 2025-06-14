@@ -35,7 +35,7 @@
   
   .credit-card {
     background: linear-gradient(135deg, #2A9D8F, #7BC6CC);
-    color: #ffffff;
+    color: #f5f5f5;
     border-radius: 20px;
     padding: 25px;
     position: relative;
@@ -141,18 +141,18 @@
     border-radius: 5px;
 }
 
-a {
-    color: #0a0909 !important; 
+.restaurant-info a{
+    color: #0f0202; 
     text-decoration: none; 
 }
 
-a:hover {
+.restaurant-info a:hover {
   color: #dfdf1b; 
 }
 
 strong {
   background-color: #ffc107;
-  color: #201852;
+  color: #0f0229;
 }
 
   
