@@ -115,6 +115,7 @@
   .account-number {
     font-weight: bold;
     font-size: 1rem;
+    color: #000;
   }
   
   .copy-btn {
