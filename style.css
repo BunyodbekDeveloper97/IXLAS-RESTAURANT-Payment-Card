@@ -115,7 +115,10 @@
   .account-number {
     font-weight: bold;
     font-size: 1rem;
-    color: #000;
+    color: #000;              
+    background-color: #fff;  
+    padding: 5px 10px;
+    border-radius: 6px;
   }
   
   .copy-btn {
