@@ -79,11 +79,17 @@ body {
   margin-bottom: 8px;
   word-break: break-word;
   user-select: text;
+  text-decoration: none;
 }
 
 .card-number {
   font-size: clamp(1rem, 4vw, 1.2rem);
   letter-spacing: 2px;
+}
+
+.card-number a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .card-brand {
@@ -121,6 +127,12 @@ body {
   font-size: clamp(0.9rem, 3vw, 1rem);
   color: #1414f0;
   user-select: text;
+  text-decoration: none;
+}
+
+.account-number a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .copy-btn {
@@ -155,6 +167,12 @@ body {
 
 .restaurant-info a:hover {
   color: #dfdf1b;
+}
+
+/* Global link reset */
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 strong {
